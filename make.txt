@@ -1,0 +1,7 @@
+Make
+
+For dnsinject:
+gcc dnsinject.c -o dnsinject -lpcap -lnet -lresolv
+
+For detect
+sudo python dnsdetect.py [-i interface][-r test_trace]
